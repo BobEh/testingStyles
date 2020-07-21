@@ -1,0 +1,372 @@
+/* Add some styling to the product group cards */
+.text-truncate {
+  overflow: visible;
+  white-space: initial;
+  text-align: center;
+  height: 40px;
+}
+
+.ProductCard .text-truncate {
+  height: auto;
+}
+
+.productNameLink {
+  white-space: normal;
+}
+
+.productDescriptionRow {
+  height: 2.8em;
+}
+
+.CardSet {
+  height: auto !important;
+}
+
+#productGroupCard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  transition: all 0.25s;
+}
+
+#productGroupCard:hover {
+  transform: translateY(-5px);
+}
+
+/* Branding styles */
+
+/* Button styling */
+.btn-primary {
+  background-color: #517375;
+  /* CHANGE HERE the color */
+  border-color: #517375;
+  /* CHANGE HERE the color */
+}
+
+.btn-primary:hover {
+  background-color: #703a00;
+  /* CHANGE HERE the color */
+  border-color: #703a00;
+  /* CHANGE HERE the color */
+}
+
+.epi-button {
+  background-color: #517375;
+  /* CHANGE HERE the color */
+  border-color: #517375;
+  /* CHANGE HERE the color */
+}
+
+.epi-button:hover {
+  background-color: #703a00;
+  /* CHANGE HERE the color */
+  border-color: #703a00;
+  /* CHANGE HERE the color */
+}
+
+.epi-search-quicklists > a {
+  background-color: #517375;
+  /* CHANGE HERE the color */
+  border-color: #517375;
+  /* CHANGE HERE the color */
+}
+
+.epi-search-quicklists > a:hover {
+  background-color: #703a00;
+  /* CHANGE HERE the color */
+  border-color: #703a00;
+  /* CHANGE HERE the color */
+}
+
+#ctl00_PageBody_ApplySearchParametersImageButton {
+  background-color: #517375;
+  /* CHANGE HERE the color */
+  border-color: #517375;
+  /* CHANGE HERE the color */
+}
+
+#ctl00_PageBody_ApplySearchParametersImageButton:hover {
+  background-color: #703a00;
+  /* CHANGE HERE the color */
+  border-color: #703a00;
+  /* CHANGE HERE the color */
+}
+
+.epi-action > div > a {
+  background-color: #517375;
+  /* CHANGE HERE the color */
+  border-color: #517375;
+  /* CHANGE HERE the color */
+}
+
+.epi-action > div > a:hover {
+  background-color: #703a00;
+  /* CHANGE HERE the color */
+  border-color: #703a00;
+  /* CHANGE HERE the color */
+}
+
+.epi-search-addresses > a {
+  background-color: #517375;
+  /* CHANGE HERE the color */
+  border-color: #517375;
+  /* CHANGE HERE the color */
+}
+
+.epi-search-addresses > a:hover {
+  background-color: #703a00;
+  /* CHANGE HERE the color */
+  border-color: #703a00;
+  /* CHANGE HERE the color */
+}
+
+.epi-search-contacts > a {
+  background-color: #517375;
+  /* CHANGE HERE the color */
+  border-color: #517375;
+  /* CHANGE HERE the color */
+}
+
+.epi-search-contacts > a:hover {
+  background-color: #703a00;
+  /* CHANGE HERE the color */
+  border-color: #703a00;
+  /* CHANGE HERE the color */
+}
+
+.ProductGroupsDeskTopMenuItem a {
+  font-size: 15px;
+}
+
+/* Change the smallest menu item hover css */
+.RadSiteMap_Windows7 .rsmTwoLevels .rsmLevel1 .rsmLink:hover {
+  background-color: initial;
+  background-image: initial;
+  border: white;
+  color: #703a00;
+}
+
+/* Change the color of the expand right submenu text */
+.RadSiteMap .rsmLink {
+  color: #517375;
+  /* CHANGE HERE the color */
+}
+
+/* Change the colors of the list items on hover for the menu */
+.RadMenu_MetroTouch .rmGroup .rmExpanded > .rmLink {
+  background-color: #517375;
+  /* CHANGE HERE the color */
+  border-color: #517375;
+  /* CHANGE HERE the color */
+}
+
+/* Change color of active page number box and move it to the background when slider menu is in use */
+.page-item.active .page-link {
+  z-index: 0;
+  background-color: #517375;
+  border-color: #517375;
+}
+
+/*Change font color of first level headings of slider menu */
+a.rmLink.rmExpand.rmExpandRight {
+  color: #703a00;
+}
+
+/* sub-menu headings */
+.rsmItem a {
+  font-size: 14px;
+}
+
+/* sub-menu list items */
+.rsmLevel1 a {
+  font-size: 12px;
+}
+
+.RadSiteMap .rsmTwoLevels > .rsmItem > .rsmLink {
+  font-size: 17px;
+}
+
+/* Hide product count shown at bottom of product group image tile */
+.productGroupDrillDownCount {
+  display: none;
+}
+
+/* show menu button */
+.RadMenu_MetroTouch .rmRootGroup {
+  background-color: #517375;
+  border-color: #517375;
+  border-style: none;
+  font-weight: 400;
+  color: #fff;
+  font-size: 16px;
+}
+
+.RadMenu_MetroTouch .rmRootGroup .rmExpanded > .rmRootLink {
+  background-color: #517375;
+  border-color: #517375;
+  border-style: none;
+  font-weight: 400;
+  color: #fff;
+  font-size: 16px;
+}
+
+/* Change to 'Shop By Department' button */
+.RadMenu .rmRootGroup.rmHorizontal > .rmItem {
+  border-style: none;
+}
+
+/* Change color of colour of all main nav items */
+i.fas.fa-shopping-cart {
+  color: #703a00;
+  /* CHANGE HERE the color */
+}
+
+i.fas.fa-shopping-cart:hover {
+  color: #517375;
+  /* CHANGE HERE the color */
+}
+
+i.fas.fa-bookmark {
+  color: #703a00;
+  /* CHANGE HERE the color */
+}
+
+i.fas.fa-bookmark:hover {
+  color: #517375;
+  /* CHANGE HERE the color */
+}
+
+.main-nav a.nav-link {
+  color: #703a00;
+  /* CHANGE HERE the color */
+}
+
+.main-nav a.nav-link:hover {
+  color: #517375;
+  /* CHANGE HERE the color */
+}
+
+/* Update font color of 'Forgot Password' on sign in page */
+a.text-primary {
+  color: #703a00 !important;
+  /* CHANGE HERE the color */
+}
+
+a.text-primary:hover {
+  color: #517375 !important;
+  /* CHANGE HERE the color */
+}
+
+/* Update font color of text on sign in page */
+.form-small {
+  color: #703a00;
+  /* CHANGE HERE the color */
+}
+
+/* Update Account Information page */
+td.panelBodyHeader.panelAccountInfoSubtitle {
+  color: #703a00;
+  /* CHANGE HERE the color */
+}
+
+td.listPageHeader {
+  color: #703a00;
+  /* CHANGE HERE the color */
+}
+
+/* Change text in page footer */
+.site-footer .footer-panel {
+  color: #494949;
+  /* CHANGE HERE the color */
+}
+
+/* Changes to header */
+/* Don't forget to remove height from branding-logo, set img width 100%, height auto for responsiveness */
+div#siteHeaderContent {
+  margin: 0px 20px;
+  max-width: 650px;
+}
+
+#brandingLogo {
+  width: 100%;
+  text-align: left;
+  padding: 5px;
+}
+
+#ctl00_PageHeader_branding {
+  padding: 7px 0 5px;
+  text-align: center;
+}
+
+div#PageHeaderDiv {
+  background-color: #517375;
+  /* CHANGE HERE the color */
+}
+
+.sticky-header {
+  box-shadow: none;
+  background-color: #dde7e8;
+}
+
+span.rmLink.rmRootLink.rmExpand.rmExpandDown {
+  background-color: #703a00;
+  /* CHANGE HERE the color */
+  color: #fff;
+}
+
+pre {
+  margin-bottom: 0px;
+  font-size: 0%;
+}
+
+/* fix background of main page and items per page */
+.container-fluid {
+  padding-top: 10px;
+  background-color: #f6f6f6;
+}
+
+span.currentItemsPerPageStyle {
+  color: #de1738;
+  font-weight: 700;
+}
+
+.paging-control {
+  background-color: #dde7e8;
+  color: #494949;
+}
+
+.items-per-page-label {
+  font-weight: lighter;
+}
+
+/* Fix issue with images being stretched */
+#ctl00_PageBody_productDetail_ProductImage {
+  max-height: 100%;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  min-width: 0%;
+  min-height: 0%;
+}
+
+.ThumbnailImage {
+  max-height: 100px;
+  max-width: 100px;
+  min-width: 0%;
+  min-height: 0%;
+  width: auto;
+  height: auto;
+}
+
+.productImage {
+  max-height: 100%;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  min-width: 0%;
+  min-height: 0%;
+}
