@@ -1,24 +1,20 @@
 [
   {
-    "ID": "0001",
     "FIRSTNAME": "JOSEPH",
     "LASTNAME": "SMITH",
     "WORKERTYPE": "MANAGER"
   },
   {
-    "ID": "0002",
     "FIRSTNAME": "ROBERT",
     "LASTNAME": "WHITE",
     "WORKERTYPE": "EMPLOYEE"
   },
   {
-    "ID": "0003",
     "FIRSTNAME": "JACK",
     "LASTNAME": "BLACK",
     "WORKERTYPE": "EMPLOYEE"
   },
   {
-    "ID": "0004",
     "FIRSTNAME": "MORGAN",
     "LASTNAME": "FREEMAN",
     "WORKERTYPE": "EMPLOYEE"
